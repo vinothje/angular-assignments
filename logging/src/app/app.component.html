@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<button (click)="addLog()">Click</button>
+
+<div *ngFor="let log of allLogs">
+  <log [log]="log"></log>
+</div>
+
