@@ -1,0 +1,22 @@
+<div style="margin: 20px">
+  <a
+    [routerLink]="['/']"
+    class="btn btn-primary">Back</a>
+</div>
+<div *ngIf="holiday" class="container">
+  <div class="row">
+    <div class="col-md-4">
+    Date : {{holiday.date}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+    Name : {{holiday.name}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+    Observed : {{holiday.observed}}
+    </div>
+  </div>
+</div>

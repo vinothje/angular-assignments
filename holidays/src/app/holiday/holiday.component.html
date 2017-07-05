@@ -1,0 +1,10 @@
+<div class="container">
+  <h3>USA Holidays of Year 2015</h3>
+  <ul class="list-group"
+      *ngFor="let item of holidayList"
+  >
+    <li class="list-group-item">
+      <a [routerLink]="['holiday', item.id]">{{item.name}}</a>
+    </li>
+  </ul>
+</div>
