@@ -2,6 +2,12 @@
 
 This project is to get the list of USA Holidays of 2015 (only the public holidays)
 
+To run the project :
+
+1. Git clone the project.
+2. run : npm install
+3. run : ng serve
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
