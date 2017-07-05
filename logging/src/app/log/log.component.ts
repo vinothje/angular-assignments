@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LogComponent implements OnInit {
 
-  @Input() log;
+  @Input() logData;
+  @Input() logIndex;
   constructor() { }
 
   ngOnInit() {
