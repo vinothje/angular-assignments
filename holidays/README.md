@@ -1,5 +1,7 @@
 # Holidays
 
+This project is to get the list of USA Holidays of 2015 (only the public holidays)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
